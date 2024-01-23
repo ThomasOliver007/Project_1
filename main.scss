@@ -62,16 +62,16 @@ h1 {
   flex-shrink: 0;
   fill: #fff;
   padding-left: 40px;
-}
-.input__style::placeholder {
-  color: #999;
-  text-align: center;
-  font-family: Josefin Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 185.714% */
-  letter-spacing: 2.8px;
+  &::placeholder {
+    color: #999;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+    letter-spacing: 2.8px;
+  }
 }
 .search-button__style {
   width: 153px;
@@ -89,13 +89,13 @@ h1 {
   line-height: 26px; /* 185.714% */
   letter-spacing: 1.4px;
   text-transform: uppercase;
+  &:hover {
+    background-color: #04aa6d;
+    color: white;
+  }
 }
 .fa {
   padding-left: 7px;
-}
-.search-button__style:hover {
-  background-color: #04aa6d;
-  color: white;
 }
 .search-icon__style {
   width: 22px;
@@ -160,10 +160,10 @@ h1 {
   line-height: 26px; /* 185.714% */
   text-transform: uppercase;
   text-decoration: none;
-}
-.navigation-link:hover {
-  background-color: white;
-  color: #5474fd;
+  &:hover {
+    background-color: white;
+    color: #5474fd;
+  }
 }
 
 /* second section */
@@ -217,11 +217,12 @@ h1 {
   line-height: 26px; /* 162.5% */
   letter-spacing: 1.2px;
   text-transform: uppercase;
+  &:hover {
+    background-color: #04aa6d;
+    color: white;
+  }
 }
-.explore-places-button-style:hover {
-  background-color: #04aa6d;
-  color: white;
-}
+
 .houseonwater-mountains-img__style {
   display: flex;
   flex-direction: column;
@@ -320,11 +321,12 @@ h1 {
   text-transform: uppercase;
   margin-left: 30px;
   margin-bottom: 50px;
+  &:hover {
+    background-color: #04aa6d;
+    color: white;
+  }
 }
-.spain-button__style:hover {
-  background-color: #04aa6d;
-  color: white;
-}
+
 .sea-background__img {
   background-image: url(img/sea_background.png);
   padding-top: 230px;
